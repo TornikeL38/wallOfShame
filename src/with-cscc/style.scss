@@ -33,15 +33,12 @@ body{
         margin-top: 27px;
     }
     p{
-        
-        // width: 70px;
         height: 21px;
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
         line-height: 21px;
-        color: $p-color;
-        margin-top: -10px;
+        color: $p-color;    
     }
     .input-conteiner{
         gap: 33px;
@@ -65,27 +62,68 @@ body{
         margin: 0 auto;  
         margin-top: 27px;
         border-radius: 6px;
-        #info-wrapper{
-            display: flex;
-            justify-content: flex-start;
-            gap: 225px;
-        }  
-        h5{
-            align-items: center;
-            text-align: center;
-            margin: 0 auto;
-            padding: 10px;
-            justify-content: flex-start;
+        gap: 250px;
+        h6{
+            padding-left: 10px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: 0.03em;
         }
         p{
-            align-items: center;
-            text-align: center;
-            margin: 0 auto;
-            padding: 10px;
-            // flex: 1 1;
+          padding-left: 10px;  
+          margin-top: 21px;
         }
         span{
-            margin-left: 215px;
+            margin-left: 280px;
+        }
+    }
+    .shame-wrapper{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        .full-name{
+            padding-left: 10px;
+            width: 264px;
+            height: 24px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .spanForTextWidth{
+            width: 400px;
+            margin-left: 25px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .spanForCount{
+            margin-left: 180px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .buttonForIncrease{
+            width: 92px;
+            height: 34px;
+            background: #C9F7F5;
+            border-radius: 6px;
+            border: none;
+            color: #1BC5BD;
+
+        }
+        .spanForButton{
+            display: flex;
+            align-items: center;
+            margin-left: 144px;
         }
     }
 }
