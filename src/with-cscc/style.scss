@@ -1,0 +1,92 @@
+$p-color:#B5B5C3;
+body{
+    background-color: lightgray;
+}
+.main-wrapper{
+    max-width: 1180px;
+    height: 493px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 15vh;
+    background-color: white;
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    }
+    button{
+        width: 80px;
+        height: 34px;
+        background: #F64E60;
+        border-radius: 6px;
+        border: none;
+        margin-top: 6px;
+        color: white;
+        cursor: pointer;
+    }
+    h3{
+        width: 198px;
+        height: 22px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 27px;
+    }
+    p{
+        
+        // width: 70px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+        color: $p-color;
+        margin-top: -10px;
+    }
+    .input-conteiner{
+        gap: 33px;
+        margin-top: 28px;
+        .input{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 10px;
+            background: #FFFFFF;
+            border: 1px solid #E2E1E5;
+            border-radius: 5px;
+            max-height: 48px;
+            width: 300px;
+        }
+    }
+    .info-wrapper{
+        width: 95%;
+        background-color: #F3F6F9;
+        display: flex;
+        margin: 0 auto;  
+        margin-top: 27px;
+        border-radius: 6px;
+        #info-wrapper{
+            display: flex;
+            justify-content: flex-start;
+            gap: 225px;
+        }  
+        h5{
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px;
+            justify-content: flex-start;
+        }
+        p{
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px;
+            // flex: 1 1;
+        }
+        span{
+            margin-left: 215px;
+        }
+    }
+}
+
